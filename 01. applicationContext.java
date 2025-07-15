@@ -39,3 +39,16 @@ public class DemoApplication implements CommandLineRunner {
         }
     }
 }
+
+
+op
+ Listing all beans provided by Spring Boot:
+applicationConversionService
+beanNameViewResolver
+commandLineRunner
+demoApplication
+dispatcherServlet
+messagePrinter
+messageService
+...
+ 
