@@ -7,7 +7,8 @@ it goes through several phases:
 Spring creates an instance of the bean by calling its constructor.
 
 2. Populate Properties (Dependency Injection)
-Spring injects dependencies into the bean’s fields or setters. This happens using annotations like @Autowired or via constructor injection.
+Spring injects dependencies into the bean’s fields or setters. 
+This happens using annotations like @Autowired or via constructor injection.
 
 3. BeanNameAware & BeanFactoryAware (Optional)
 If the bean implements interfaces like BeanNameAware or BeanFactoryAware, 
@@ -33,6 +34,8 @@ The bean is fully initialized and ready to be used in the application.
 When the application context is closed, Spring calls destruction callbacks:
 Methods annotated with @PreDestroy
 Custom destroy methods specified via destroy-method or DisposableBean.destroy()
+
+
 
 1. Instantiation (constructor)
 2. Dependency Injection
