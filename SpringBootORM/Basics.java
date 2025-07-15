@@ -130,4 +130,18 @@ public class UserController {
 }
 
 
+  ▶️ Run & Test:
+
+POST Request:
+URL: http://localhost:8080/users?name=John&email=john@example.com
+
+GET Request:
+URL: http://localhost:8080/users
+
+🖨️ Console Output:
+
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_0_, user0_.email as email2_0_, user0_.name as name3_0_ from user user0_
+
+
 
