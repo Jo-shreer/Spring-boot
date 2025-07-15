@@ -1,4 +1,4 @@
-/*
+o/*
   📌 What is ORM?
 
 - ORM stands for **Object-Relational Mapping**.
@@ -34,6 +34,19 @@
 </dependency>
 
 *******†**********************†****************************
+
+⚙️ 5. application.properties
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.h2.console.enabled=true
+  
+  
   🧩 1. Entity Class (User.java)
 
 import jakarta.persistence.*;
