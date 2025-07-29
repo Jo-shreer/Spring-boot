@@ -34,15 +34,19 @@ Step 1: Add Dependency (Maven)
 
 
 Step 2: Enable Feign Clients
+
 @SpringBootApplication
 @EnableFeignClients
-public class FeignExampleApplication {
-    public static void main(String[] args) {
+public class FeignExampleApplication 
+{
+    public static void main(String[] args) 
+    {
         SpringApplication.run(FeignExampleApplication.class, args);
     }
 }
 
 Step 3: Create Feign Client Interface
+
 @FeignClient(name = "jsonPlaceholderClient", 
              url = "https://jsonplaceholder.typicode.com")
 public interface JsonPlaceholderClient 
@@ -62,6 +66,7 @@ public class Post
 
     // Getters and Setters
 }
+
 step 5
 @RestController
 @RequestMapping("/api")
