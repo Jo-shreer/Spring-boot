@@ -12,7 +12,9 @@ It allows separating cross-cutting concerns like:
 - Caching
 - Monitoring
 
-Instead of writing repetitive code in every method, AOP lets you write reusable logic and apply it to multiple methods automatically.
+Instead of writing repetitive code in every method
+AOP lets you write reusable logic and apply it to multiple
+methods automatically.
 
 ────────────────────────────────────────────
 🔹 Core AOP Concepts
