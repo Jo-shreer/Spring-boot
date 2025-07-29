@@ -82,7 +82,8 @@ public class AopDemoApplication
 }
 
 @Service
-public class MyService {
+public class MyService 
+{
     public void doSomething() 
     {
         System.out.println("✅ Inside MyService.doSomething()");
@@ -92,8 +93,8 @@ public class MyService {
 
 @Aspect // 🔹 This class is an Aspect — it contains cross-cutting logic.
 @Component // 🔹 Marks it as a Spring bean so Spring can detect it.
-public class LoggingAspect {
-
+public class LoggingAspect 
+{
     // 🔸 ADVICE: Runs BEFORE any method matched by the pointcut.
     @Before("execution(* com.example.aopdemo.service.*.*(..))")
     public void logBefore(JoinPoint joinPoint) 
