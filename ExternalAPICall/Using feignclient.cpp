@@ -3,7 +3,8 @@ Calling External API Using FeignClient in Spring Boot
 
 Overview
 --------
-Feign is a declarative web service client. It allows you to call external REST APIs by simply creating an interface.
+Feign is a declarative web service client. 
+It allows you to call external REST APIs by simply creating an interface.
 
 Steps:
 1. Add dependency
